@@ -1,0 +1,19 @@
+Header set Access-Control-Allow-Origin *
+Header set Access-Control-Allow-Headers DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified$
+Options +FollowSymLinks
+RewriteEngine on
+
+AddType application/ld+json .jsonld
+AddType text/turtle .ttl
+
+# Rewrite rule to serve HTML content from the vocabulary URI if requested
+RewriteCond %{HTTP_ACCEPT} text/html [OR]
+RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
+RewriteRule ^.*$ https://openplanner.team [R=303]
+
+# Rewrite rule to serve ttl content from the vocabulary URI if requested
+RewriteCond %{HTTP_ACCEPT} text/turtle
+RewriteRule ^.*$ dcat.ttl [L]
+
+# Default response : Rewrite rule to serve the ttl content from the vocabulary URI by default
+RewriteRule ^$ dcat.ttl [L]
