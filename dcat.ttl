@@ -44,7 +44,7 @@
 	dcat:distribution <#delijn/gtfs/dist-01> ;
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/interurbanbus> ;
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/tram> ;
-	dcat:theme <http//:datos.crtm.es/kos/vocabmetadata/stops> ;
+	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/stops> ;
 	dct:publisher <https://openplanner.team/> ;
 	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ;
 	foaf:page <http://www.delijn.be> ;
@@ -66,7 +66,7 @@
 	dcat:distribution <#stib-mivb/gtfs/dist-01> ;
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/interurbanbus> ;
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/tram> ;
-	dcat:theme <http//:datos.crtm.es/kos/vocabmetadata/stops> ;
+	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/stops> ;
 	dct:publisher <https://openplanner.team/> ;
 	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ;
 	foaf:page <http://www.stib-mivb.be> ;
@@ -87,7 +87,7 @@
 	dcat:contactPoint <http://www.belgianrail.be/en/customer-service/contact.aspx>;
 	dcat:distribution <#sncb-nmbs/gtfs/dist-01> ;
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/train> ;
-	dcat:theme <http//:datos.crtm.es/kos/vocabmetadata/stops> ;
+	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/stops> ;
 	dct:publisher <https://openplanner.team/> ;
 	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ;
 	foaf:page <http://www.belgianrail.be> ;
@@ -109,7 +109,7 @@
 	dcat:distribution <#tec/gtfs/dist-01> ;
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/interurbanbus> ;
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/tram> ;
-	dcat:theme <http//:datos.crtm.es/kos/vocabmetadata/stops> ;
+	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/stops> ;
 	dct:publisher <https://openplanner.team/> ;
 	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ;
 	foaf:page <https://www.infotec.be/> ;
