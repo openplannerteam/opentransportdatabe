@@ -1,1 +1,178 @@
-# TODO: Julián
+@base <https://opentransportdata.be/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix schema: <http://schema.org/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix spdx: <http://spdx.org/rdf/terms#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+
+<https://graph.irail.be/catalog> a dcat:Catalog.
+<https://belgium.linkedconnections.org/catalog> a dcat:Catalog.
+
+<#catalog/gtfs> a dcat:Catalog ;	
+	dcat:dataset <#delijn/gtfs>, <#stib-mivb/gtfs>, <#snbc-nmbs/gtfs>, <#tec/gtfs> ;
+	dct:description "Contains 4 datasets comprising different transportation systems in Belgium" ;
+	dct:publisher <https://openplanner.team/> ;
+	dct:title "Belgium catalog for GTFS datasets" ;
+	dct:spatial <http://sws.geonames.org/2802361/>;
+	foaf:homepage <https://openplanner.team/> ;  
+	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+	dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	dct:issued "2018-09-20"^^xsd:date ;
+	dcat:themeTaxonomy <http://datos.crtm.es/kos/vocabmetadata> ;
+	dct:modified "2018-09-20"^^xsd:date ;
+	dcat:record <#catalog/gtfs/record-01> ;
+	dct:rights "public".
+
+
+<https://openplanner.team/> a foaf:Organization ;
+	foaf:name "Open Planner";
+	foaf:page <https://openplanner.team/>.
+
+
+<#delijn/gtfs> a dcat:Dataset;
+	dct:description "Flanders De Lijn GTFS dataset";
+	dct:title "De Lijn GTFS dataset" ;
+	dct:spatial <http://sws.geonames.org/3337388/>; 
+	dcat:keyword "Bus", "Tram", "Stops";
+	dcat:contactPoint <http://www.delijn.be/en/contact/>;
+	dcat:distribution <#delijn/gtfs/dist-01> ;
+	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/interurbanbus> ;
+	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/tram> ;
+	dcat:theme <http//:datos.crtm.es/kos/vocabmetadata/stops> ;
+	dct:publisher <https://openplanner.team/> ;
+	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ;
+	foaf:page <http://www.delijn.be> ;
+	dct:identifier "delijn" ;
+	dcat:landingPage <https://www.delijn.be/en/zakelijk-aanbod/reisinfodata/gebruik-onze-data.html>;
+	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+	owl:versionInfo	"1.0" ;
+	dct:accessRights "public" ;
+	dct:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series> ;
+	dct:provenance "This dataset belongs to the open data about Belgium public transportation systems".
+
+
+<#stib-mivb/gtfs> a dcat:Dataset;
+	dct:description "Brussels STIB-MIVB GTFS dataset";
+	dct:title "MIVB-STIB GTFS dataset" ;
+	dct:spatial <http://sws.geonames.org/2800866/>; 
+	dcat:keyword "Bus", "Tram", "Stops";
+	dcat:contactPoint <http://www.stib-mivb.be/article.html?_guid=803bdcc5-1b8e-3410-54a9-bf3b6e04a84c&l=en>;
+	dcat:distribution <#stib-mivb/gtfs/dist-01> ;
+	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/interurbanbus> ;
+	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/tram> ;
+	dcat:theme <http//:datos.crtm.es/kos/vocabmetadata/stops> ;
+	dct:publisher <https://openplanner.team/> ;
+	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ;
+	foaf:page <http://www.stib-mivb.be> ;
+	dct:identifier "stib-mivb" ;
+	dcat:landingPage <https://opendata.stib-mivb.be/store>;
+	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+	owl:versionInfo	"1.0" ;
+	dct:accessRights "public" ;
+	dct:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series> ;
+	dct:provenance "This dataset belongs to the open data about Belgium public transportation systems".
+
+
+<#sncb-nmbs/gtfs> a dcat:Dataset;
+	dct:description "Belgium SNCB-NMBS GTFS dataset";
+	dct:title "SNCB-NMBS GTFS dataset" ;
+	dct:spatial <http://sws.geonames.org/2802361/>; 
+	dcat:keyword "Train", "Stops";
+	dcat:contactPoint <http://www.belgianrail.be/en/customer-service/contact.aspx>;
+	dcat:distribution <#sncb-nmbs/gtfs/dist-01> ;
+	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/train> ;
+	dcat:theme <http//:datos.crtm.es/kos/vocabmetadata/stops> ;
+	dct:publisher <https://openplanner.team/> ;
+	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ;
+	foaf:page <http://www.belgianrail.be> ;
+	dct:identifier "sncb-nmbs" ;
+	dcat:landingPage <http://www.belgianrail.be/en/customer-service/information-services-and-travel-tools/public-data.aspx>;
+	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+	owl:versionInfo	"1.0" ;
+	dct:accessRights "public" ;
+	dct:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series> ;
+	dct:provenance "This dataset belongs to the open data about Belgium public transportation systems".
+
+
+<#tec/gtfs> a dcat:Dataset;
+	dct:description "Walloonia TEC GTFS dataset";
+	dct:title "TEC GTFS dataset" ;
+	dct:spatial <http://sws.geonames.org/3337387/>; 
+	dcat:keyword "Bus", "Tram", "Stops";
+	dcat:contactPoint <https://www.infotec.be/fr-be/contact.aspx>;
+	dcat:distribution <#tec/gtfs/dist-01> ;
+	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/interurbanbus> ;
+	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/tram> ;
+	dcat:theme <http//:datos.crtm.es/kos/vocabmetadata/stops> ;
+	dct:publisher <https://openplanner.team/> ;
+	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ;
+	foaf:page <https://www.infotec.be/> ;
+	dct:identifier "tec" ;
+	dcat:landingPage <https://www.infotec.be/fr-be/minformer/opendata.aspx>;
+	dct:language <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+	owl:versionInfo	"1.0" ;
+	dct:accessRights "public" ;
+	dct:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series> ;
+	dct:provenance "This dataset belongs to the open data about Belgium public transportation systems".
+
+
+<#delijn/gtfs/dist-01> a dcat:Distribution;
+	dcat:accessURL <https://hello.irail.be/gtfs/> ;
+	dct:description	"GTFS dataset distribution for De Lijn" ;
+	dct:format "CSV" ;
+	dcat:downloadURL <http://gtfs.irail.be/de-lijn/de_lijn-gtfs.zip> ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ; 
+	dcat:mediaType "text/csv" ;
+	dct:rights "public" ; 
+	
+
+<#stib-mivb/gtfs/dist-01> a dcat:Distribution;
+	dcat:accessURL <https://hello.irail.be/gtfs/> ;
+	dct:description	"GTFS dataset distribution for STIB-MIVB" ;
+	dct:format "CSV" ;
+	dcat:downloadURL <https://gtfs.irail.be/mivb/mivb-gtfs.zip> ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ; 
+	dcat:mediaType "text/csv" ;
+	dct:rights "public" ; 
+
+
+<#snbc-nmbs/gtfs/dist-01> a dcat:Distribution;
+	dcat:accessURL <https://hello.irail.be/gtfs/> ;
+	dct:description	"GTFS dataset distribution for SNCB-NMBS" ;
+	dct:format "CSV" ;
+	dcat:downloadURL <http://gtfs.irail.be/nmbs/nmbs-latest.zip> ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ; 
+	dcat:mediaType "text/csv" ;
+	dct:rights "public" ; 
+
+
+<#tec/gtfs/dist-01> a dcat:Distribution;
+	dcat:accessURL <https://hello.irail.be/gtfs/> ;
+	dct:description	"GTFS dataset distribution for TEC" ;
+	dct:format "CSV" ;
+	foaf:page <https://hello.irail.be/gtfs/> ;
+	dcat:downloadURL <https://gtfs.irail.be/tec/tec-gtfs.zip> ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ; 
+	dcat:mediaType "text/csv" ;
+	dct:rights "public" ; 
+
+
+<#catalog/gtfs/record-01> a dcat:CatalogRecord;
+	foaf:primaryTopic <#delijn/gtfs>, <#stib-mivb/gtfs>, <#snbc-nmbs/gtfs>, <#tec/gtfs>;
+	dct:modified "2018-09-20"^^xsd:date ;
+	dct:conformsTo "TransportDCAT-AP";
+	adms:status	"updated";
+	dct:issued "2018-09-20"^^xsd:date ;
+	dct:description	"Added GTFS datasets to the catalog" ;
+	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+	dct:title "Belgium GTFS Datasets - Publishing".
