@@ -9,7 +9,7 @@ AddType text/turtle .ttl
 # Rewrite rule to serve HTML content from the vocabulary URI if requested
 RewriteCond %{HTTP_ACCEPT} text/html [OR]
 RewriteCond %{HTTP_ACCEPT} application/xhtml\+xml
-RewriteRule ^.*$ https://openplanner.team [R=303]
+RewriteRule ^.*$ https://openplanner.team/developers.html [R=303]
 
 # Rewrite rule to serve ttl content from the vocabulary URI if requested
 RewriteCond %{HTTP_ACCEPT} text/turtle
