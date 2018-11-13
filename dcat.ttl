@@ -12,7 +12,7 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
 
 <https://graph.irail.be/catalog> a dcat:Catalog.
-<https://belgium.linkedconnections.org/catalog> a dcat:Catalog.
+<http://openplanner.ilabt.imec.be/catalog> a dcat:Catalog.
 
 <#catalog/gtfs> a dcat:Catalog ;	
 	dcat:dataset <#delijn/gtfs>, <#stib-mivb/gtfs>, <#snbc-nmbs/gtfs>, <#tec/gtfs> ;
