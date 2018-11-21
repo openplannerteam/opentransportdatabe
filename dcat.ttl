@@ -130,7 +130,7 @@
 	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ; 
 	dcat:mediaType "text/csv" ;
-	dct:rights "public" ; 
+	dct:rights "public". 
 	
 
 <#stib-mivb/gtfs/dist-01> a dcat:Distribution;
@@ -141,7 +141,7 @@
 	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ; 
 	dcat:mediaType "text/csv" ;
-	dct:rights "public" ; 
+	dct:rights "public". 
 
 
 <#snbc-nmbs/gtfs/dist-01> a dcat:Distribution;
@@ -152,7 +152,7 @@
 	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ; 
 	dcat:mediaType "text/csv" ;
-	dct:rights "public" ; 
+	dct:rights "public".
 
 
 <#tec/gtfs/dist-01> a dcat:Distribution;
@@ -164,7 +164,7 @@
 	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ; 
 	dcat:mediaType "text/csv" ;
-	dct:rights "public" ; 
+	dct:rights "public". 
 
 
 <#catalog/gtfs/record-01> a dcat:CatalogRecord;
