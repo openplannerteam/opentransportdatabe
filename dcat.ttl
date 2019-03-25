@@ -144,7 +144,7 @@
 	dct:rights "public". 
 
 
-<#snbc-nmbs/gtfs/dist-01> a dcat:Distribution;
+<#sncb-nmbs/gtfs/dist-01> a dcat:Distribution;
 	dcat:accessURL <https://hello.irail.be/gtfs/> ;
 	dct:description	"GTFS dataset distribution for SNCB-NMBS" ;
 	dct:format "CSV" ;
