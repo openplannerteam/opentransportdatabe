@@ -60,7 +60,7 @@
 <#stib-mivb/gtfs> a dcat:Dataset;
 	dct:description "Brussels STIB-MIVB GTFS dataset";
 	dct:title "MIVB-STIB GTFS dataset" ;
-	dct:spatial <http://sws.geonames.org/2800866/>; 
+	dct:spatial <http://sws.geonames.org/2800867/>; 
 	dcat:keyword "Bus", "Tram", "Stops";
 	dcat:contactPoint <http://www.stib-mivb.be/article.html?_guid=803bdcc5-1b8e-3410-54a9-bf3b6e04a84c&l=en>;
 	dcat:distribution <#stib-mivb/gtfs/dist-01> ;
@@ -144,7 +144,7 @@
 	dct:rights "public". 
 
 
-<#snbc-nmbs/gtfs/dist-01> a dcat:Distribution;
+<#sncb-nmbs/gtfs/dist-01> a dcat:Distribution;
 	dcat:accessURL <https://hello.irail.be/gtfs/> ;
 	dct:description	"GTFS dataset distribution for SNCB-NMBS" ;
 	dct:format "CSV" ;
