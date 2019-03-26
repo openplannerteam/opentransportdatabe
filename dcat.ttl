@@ -148,7 +148,7 @@
 	dcat:accessURL <https://hello.irail.be/gtfs/> ;
 	dct:description	"GTFS dataset distribution for SNCB-NMBS" ;
 	dct:format "CSV" ;
-	dcat:downloadURL <http://gtfs.irail.be/nmbs/nmbs-latest.zip> ;
+	dcat:downloadURL <http://gtfs.irail.be/nmbs/gtfs/latest.zip> ;
 	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ; 
 	dcat:mediaType "text/csv" ;
