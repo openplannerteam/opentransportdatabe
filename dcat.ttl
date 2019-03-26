@@ -17,7 +17,7 @@
 <#catalog/gtfs> a dcat:Catalog ;	
 	dcat:dataset <#delijn/gtfs>, <#stib-mivb/gtfs>, <#snbc-nmbs/gtfs>, <#tec/gtfs> ;
 	dct:description "Contains 4 datasets comprising different transportation systems in Belgium" ;
-	dct:publisher <https://openplanner.team/> ;
+	dct:publisher <https://openplanner.team#organization> ;
 	dct:title "Belgium catalog for GTFS datasets" ;
 	dct:spatial <http://sws.geonames.org/2802361/>;
 	foaf:homepage <https://openplanner.team/> ;  
@@ -30,7 +30,7 @@
 	dct:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC>.
 
 
-<https://openplanner.team/> a foaf:Organization ;
+<https://openplanner.team#organization> a foaf:Organization ;
 	foaf:name "Open Planner";
 	foaf:page <https://openplanner.team/>.
 
@@ -45,7 +45,7 @@
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/interurbanbus> ;
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/tram> ;
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/stops> ;
-	dct:publisher <https://openplanner.team/> ;
+	dct:publisher <https://openplanner.team#organization> ;
 	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ;
 	foaf:page <http://www.delijn.be> ;
 	dct:identifier "delijn" ;
@@ -67,7 +67,7 @@
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/interurbanbus> ;
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/tram> ;
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/stops> ;
-	dct:publisher <https://openplanner.team/> ;
+	dct:publisher <https://openplanner.team#organization> ;
 	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ;
 	foaf:page <http://www.stib-mivb.be> ;
 	dct:identifier "stib-mivb" ;
@@ -88,7 +88,7 @@
 	dcat:distribution <#sncb-nmbs/gtfs/dist-01> ;
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/train> ;
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/stops> ;
-	dct:publisher <https://openplanner.team/> ;
+	dct:publisher <https://openplanner.team#organization> ;
 	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ;
 	foaf:page <http://www.belgianrail.be> ;
 	dct:identifier "sncb-nmbs" ;
@@ -110,7 +110,7 @@
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/interurbanbus> ;
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/tram> ;
 	dcat:theme <http://datos.crtm.es/kos/vocabmetadata/stops> ;
-	dct:publisher <https://openplanner.team/> ;
+	dct:publisher <https://openplanner.team#organization> ;
 	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ;
 	foaf:page <https://www.infotec.be/> ;
 	dct:identifier "tec" ;
