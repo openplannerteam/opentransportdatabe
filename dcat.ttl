@@ -27,7 +27,7 @@
 	dcat:themeTaxonomy <http://datos.crtm.es/kos/vocabmetadata> ;
 	dct:modified "2018-09-20"^^xsd:date ;
 	dcat:record <#catalog/gtfs/record-01> ;
-	dct:rights "public".
+	dct:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC>.
 
 
 <https://openplanner.team/> a foaf:Organization ;
@@ -52,7 +52,7 @@
 	dcat:landingPage <https://www.delijn.be/en/zakelijk-aanbod/reisinfodata/gebruik-onze-data.html>;
 	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	owl:versionInfo	"1.0" ;
-	dct:accessRights "public" ;
+	dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
 	dct:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series> ;
 	dct:provenance "This dataset belongs to the open data about Belgium public transportation systems".
 
@@ -74,7 +74,7 @@
 	dcat:landingPage <https://opendata.stib-mivb.be/store>;
 	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	owl:versionInfo	"1.0" ;
-	dct:accessRights "public" ;
+	dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
 	dct:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series> ;
 	dct:provenance "This dataset belongs to the open data about Belgium public transportation systems".
 
@@ -95,7 +95,7 @@
 	dcat:landingPage <http://www.belgianrail.be/en/customer-service/information-services-and-travel-tools/public-data.aspx>;
 	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	owl:versionInfo	"1.0" ;
-	dct:accessRights "public" ;
+	dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
 	dct:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series> ;
 	dct:provenance "This dataset belongs to the open data about Belgium public transportation systems".
 
@@ -117,7 +117,7 @@
 	dcat:landingPage <https://www.infotec.be/fr-be/minformer/opendata.aspx>;
 	dct:language <http://id.loc.gov/vocabulary/iso639-1/fr> ;
 	owl:versionInfo	"1.0" ;
-	dct:accessRights "public" ;
+	dct:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
 	dct:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/series> ;
 	dct:provenance "This dataset belongs to the open data about Belgium public transportation systems".
 
@@ -130,7 +130,7 @@
 	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ; 
 	dcat:mediaType "text/csv" ;
-	dct:rights "public". 
+	dct:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC>. 
 	
 
 <#stib-mivb/gtfs/dist-01> a dcat:Distribution;
@@ -141,7 +141,7 @@
 	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ; 
 	dcat:mediaType "text/csv" ;
-	dct:rights "public". 
+	dct:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC>. 
 
 
 <#sncb-nmbs/gtfs/dist-01> a dcat:Distribution;
@@ -152,7 +152,7 @@
 	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ; 
 	dcat:mediaType "text/csv" ;
-	dct:rights "public".
+	dct:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC>.
 
 
 <#tec/gtfs/dist-01> a dcat:Distribution;
@@ -164,7 +164,7 @@
 	dct:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	dct:conformsTo <https://developers.google.com/transit/gtfs/reference> ; 
 	dcat:mediaType "text/csv" ;
-	dct:rights "public". 
+	dct:rights <http://publications.europa.eu/resource/authority/access-right/PUBLIC>. 
 
 
 <#catalog/gtfs/record-01> a dcat:CatalogRecord;
